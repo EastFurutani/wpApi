@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yAtqZeosxZdWK18YmXS4PFWuVWV/uZdVsM2Y2uhVAgIhO7pi5Axc3zwmiiY9y6merGocZwT7kby4COQbEVe3JQ==",
+  "dgSpecHash": "cpP/5ao61v2qBg9xs3HW26gzVt2UYjehED1lB1LxFBWTTEt5BqacPVn0PH42IvRXSH4m49CXdcGYwUcWDXZ/rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\PizzaStore\\PizzaStore.csproj",
+  "projectFilePath": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\WordPlayingAPI\\PizzaStore\\PizzaStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furutani\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\furutani\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

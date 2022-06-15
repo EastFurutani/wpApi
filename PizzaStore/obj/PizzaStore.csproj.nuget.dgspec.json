@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\PizzaStore\\PizzaStore.csproj": {}
+    "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\WordPlayingAPI\\PizzaStore\\PizzaStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\PizzaStore\\PizzaStore.csproj": {
+    "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\WordPlayingAPI\\PizzaStore\\PizzaStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\PizzaStore\\PizzaStore.csproj",
+        "projectUniqueName": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\WordPlayingAPI\\PizzaStore\\PizzaStore.csproj",
         "projectName": "PizzaStore",
-        "projectPath": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\PizzaStore\\PizzaStore.csproj",
+        "projectPath": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\WordPlayingAPI\\PizzaStore\\PizzaStore.csproj",
         "packagesPath": "C:\\Users\\furutani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\PizzaStore\\obj\\",
+        "outputPath": "C:\\Users\\furutani\\practice\\WordPlaying\\minimal-api-work-with-databases\\WordPlayingAPI\\PizzaStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\furutani\\AppData\\Roaming\\NuGet\\NuGet.Config",
