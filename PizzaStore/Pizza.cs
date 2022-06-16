@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 
 namespace PizzaStore.Models 
 {
@@ -8,11 +9,11 @@ namespace PizzaStore.Models
   }
 
   public class WordDbContext : DbContext{
-    //public WordDbContext(DbContextOptions options) : base(options) { }
+    public WordDbContext(DbContextOptions options) : base(options) { }
     public DbSet<WordInfo> WordInfos {get; set;}
     //public DbSet<WordInfo> WordInfos => Set<WordInfo>();
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
+    /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
         optionsBuilder
             .UseSqlServer("Server=localhost\\SQLEXPRESS;Database=WordPlaying;Trusted_Connection=True;");
 
@@ -21,6 +22,6 @@ namespace PizzaStore.Models
             modelBuilder.Entity<WordInfo>().HasData(
                 new WordInfo { id = 1, wordName = "AME"}
             );
-    }
+    }*/
   }
 }

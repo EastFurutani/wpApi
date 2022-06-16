@@ -13,6 +13,11 @@ builder.Services.AddEndpointsApiExplorer();
 
 //builder.Services.AddSqlServer<WordDbContext>(connectionString);
 
+builder.Services.AddDbContext<WordDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TestDatabaseDbContext"));
+});
+
 builder.Services.AddSwaggerGen(c =>
 {
   c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pizzas API", Description = "Pizza pizza", Version = "v1" });
@@ -36,10 +41,10 @@ app.UseCors(MyAllow);
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapGet("/word", async([FromBody] WordDbContext db) => await db.WordInfos.ToListAsync());
-app.MapGet("/word/{id}", async ([FromBody] WordDbContext db, int id) => await db.WordInfos.FindAsync(id));
+app.MapGet("/word", async(WordDbContext db) => await db.WordInfos.ToListAsync());
+app.MapGet("/word/{id}", async ( WordDbContext db, int id) => await db.WordInfos.FindAsync(id));
 
-app.MapPost("/word", async([FromBody] WordDbContext db, WordInfo wordinfo) => {
+app.MapPost("/word", async(WordDbContext db, WordInfo wordinfo) => {
     await db.WordInfos.AddAsync(wordinfo);
     await db.SaveChangesAsync();
     return Results.Created($"/word/{wordinfo.id}", wordinfo);
@@ -47,7 +52,7 @@ app.MapPost("/word", async([FromBody] WordDbContext db, WordInfo wordinfo) => {
 
 //app.MapPost("/word", (WordInfo word) => WordDb.AddWordInfo(word));
 
-app.MapPut("/word/{id}", async ([FromBody] WordDbContext db, WordInfo updatewordinfo, int id) =>
+app.MapPut("/word/{id}", async (WordDbContext db, WordInfo updatewordinfo, int id) =>
 {
     var pizza = await db.WordInfos.FindAsync(id);
     if (pizza is null) return Results.NotFound();
@@ -56,7 +61,7 @@ app.MapPut("/word/{id}", async ([FromBody] WordDbContext db, WordInfo updateword
     return Results.NoContent();
 });
 
-app.MapDelete("/word/{id}", async ([FromBody] WordDbContext db, int id) =>
+app.MapDelete("/word/{id}", async (WordDbContext db, int id) =>
 {
   var wordinfo = await db.WordInfos.FindAsync(id);
   if (wordinfo is null)
