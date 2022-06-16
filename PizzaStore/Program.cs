@@ -24,7 +24,7 @@ builder.Services.AddCors(options => {
     options.AddPolicy(name: MyAllow,
     builder => {
         builder.WithOrigins(
-          "http://localhost:3000"
+          "*"
         );
     });
 });
