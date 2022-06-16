@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc;
 
 namespace PizzaStore.Models 
 {
@@ -11,9 +10,9 @@ namespace PizzaStore.Models
   public class WordDbContext : DbContext{
     public WordDbContext(DbContextOptions options) : base(options) { }
     public DbSet<WordInfo> WordInfos {get; set;}
-    //public DbSet<WordInfo> WordInfos => Set<WordInfo>();
 
-    /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
+    /*元々の部分（SqlServerとの接続箇所はProgram.csに記述）
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
         optionsBuilder
             .UseSqlServer("Server=localhost\\SQLEXPRESS;Database=WordPlaying;Trusted_Connection=True;");
 
