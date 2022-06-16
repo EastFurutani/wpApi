@@ -23,9 +23,9 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddCors(options => {
     options.AddPolicy(name: MyAllow,
     builder => {
-        builder.WithOrigins(
-          "*"
-        );
+        builder.WithOrigins("*");
+        builder.WithHeaders("Content-Type");
+        builder.WithMethods("GET, POST, PUSH, DELETE");
     });
 });
 
