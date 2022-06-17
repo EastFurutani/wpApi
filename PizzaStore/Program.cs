@@ -25,7 +25,8 @@ builder.Services.AddCors(options => {
     builder => {
         builder.WithOrigins("*");
         builder.WithHeaders("Content-Type");
-        builder.WithMethods("GET, POST, PUSH, DELETE");
+        //builder.WithMethods("GET, POST, PUSH, DELETE");
+        builder.AllowAnyMethod();
     });
 });
 
