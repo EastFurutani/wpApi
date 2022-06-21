@@ -164,3 +164,8 @@ C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayi
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\obj\Debug\net6.0\PizzaStore.pdb
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\obj\Debug\net6.0\PizzaStore.genruntimeconfig.cache
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\obj\Debug\net6.0\ref\PizzaStore.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Debug\net6.0\publish\web.config
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Debug\net6.0\publish\PizzaStore.deps.json
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Debug\net6.0\publish\PizzaStore.runtimeconfig.json
