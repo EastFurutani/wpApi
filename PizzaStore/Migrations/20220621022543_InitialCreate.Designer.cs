@@ -11,8 +11,8 @@ using PizzaStore.Models;
 namespace PizzaStore.Migrations
 {
     [DbContext(typeof(WordDbContext))]
-    [Migration("20220615074228_Seeding")]
-    partial class Seeding
+    [Migration("20220621022543_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,13 +37,6 @@ namespace PizzaStore.Migrations
                     b.HasKey("id");
 
                     b.ToTable("WordInfos");
-
-                    b.HasData(
-                        new
-                        {
-                            id = 1,
-                            wordName = "AME"
-                        });
                 });
 #pragma warning restore 612, 618
         }

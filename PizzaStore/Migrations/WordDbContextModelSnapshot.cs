@@ -35,13 +35,6 @@ namespace PizzaStore.Migrations
                     b.HasKey("id");
 
                     b.ToTable("WordInfos");
-
-                    b.HasData(
-                        new
-                        {
-                            id = 1,
-                            wordName = "AME"
-                        });
                 });
 #pragma warning restore 612, 618
         }
