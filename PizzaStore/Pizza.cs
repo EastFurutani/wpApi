@@ -1,4 +1,8 @@
 using Microsoft.EntityFrameworkCore;
+using Dapper;
+using System.Data.SqlClient;
+using System.Data;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PizzaStore.Models 
 {
@@ -23,4 +27,34 @@ namespace PizzaStore.Models
             );
     }*/
   }
+
+  public class WPModels{
+    public int id {get; set;}
+    public string wordName {get; set;}
+    public string wordType {get; set;}
+  }
+
+  public class TarefaContext
+  {
+      public delegate Task<IDbConnection> GetConnection();
+  }
+
+  public static class ServiceCollectionsExtensions
+  {
+      public static WebApplicationBuilder AddPersistence(this WebApplicationBuilder builder)
+      {
+          builder.Services.AddScoped<GetConnection>(sp =>
+          async () =>
+          {
+              string connectionString = sp.GetService<IConfiguration>()["TestDatabaseDbString"];
+              var connection = new SqlConnection(connectionString);
+              await connection.OpenAsync();
+              return connection;
+          });
+
+          return builder;
+      }
+  }
 }
+
+  
