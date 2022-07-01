@@ -33,9 +33,11 @@ string MyAllow = "_MyAllow";
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.AddPersistence();
 
 //変更箇所
-builder.Services.AddDbContext<WordDbContext>(options =>
+/* builder.Services.AddDbContext<WordDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("TestDatabaseDbString"));
 });
@@ -43,7 +45,7 @@ builder.Services.AddDbContext<WordDbContext>(options =>
 builder.Services.AddSwaggerGen(c =>
 {
   c.SwaggerDoc("v1", new OpenApiInfo { Title = "Pizzas API", Description = "Pizza pizza", Version = "v1" });
-});
+}); */
 
 //CORS
 builder.Services.AddCors(options => {
@@ -56,6 +58,7 @@ builder.Services.AddCors(options => {
     });
 });
 
+
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
@@ -66,7 +69,12 @@ app.UseSwaggerUI(c =>
 //CORS
 app.UseCors(MyAllow);
 
-app.MapGet("/", () => "Hello World!");
+app.MapWPDapperEndpoints();
+
+app.UseSwagger();
+app.UseSwaggerUI(c => {});
+
+//app.MapGet("/", () => "Hello World!");
 
 //app.MapGet("/word", async(WordDbContext db) => await db.WordInfos.ToListAsync());
 
@@ -89,13 +97,7 @@ app.MapGet("/", () => "Hello World!");
 
 //app.MapGet("/word", async(DapperClass db) => await db..ToListAsync());
 
-app.MapGet("/word/{id}", async ( WordDbContext db, int id) => await db.WordInfos.FindAsync(id));
-
-app.MapGet("/word", async (GetConnection connectionGetter) =>
-{
-    using var con = await connectionGetter();
-    return con.GetAll<WPModels>().ToList();
-});
+/* app.MapGet("/word/{id}", async ( WordDbContext db, int id) => await db.WordInfos.FindAsync(id));
 
 app.MapPost("/word", async(WordDbContext db, WordInfo wordinfo) => {
     await db.WordInfos.AddAsync(wordinfo);
@@ -123,5 +125,5 @@ app.MapDelete("/word/{id}", async (WordDbContext db, int id) =>
   await db.SaveChangesAsync();
   return Results.Ok();
 });
-
+ */
 app.Run();
