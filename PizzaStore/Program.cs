@@ -5,7 +5,8 @@ using Dapper;
 using System.Data.SqlClient;
 using System.Linq;
 using System;
- 
+using Microsoft.Data;
+
 /* DapperMethod(){
   using(var connection = new SqlConnection(connectionstring)){
 
@@ -70,9 +71,6 @@ app.UseSwaggerUI(c =>
 app.UseCors(MyAllow);
 
 app.MapWPDapperEndpoints();
-
-app.UseSwagger();
-app.UseSwaggerUI(c => {});
 
 //app.MapGet("/", () => "Hello World!");
 

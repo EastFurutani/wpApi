@@ -82,3 +82,11 @@ C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayi
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\obj\Release\net6.0\PizzaStore.pdb
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\obj\Release\net6.0\PizzaStore.genruntimeconfig.cache
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\obj\Release\net6.0\ref\PizzaStore.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\Dapper.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\Dapper.Contrib.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\System.Data.SqlClient.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\bin\Release\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

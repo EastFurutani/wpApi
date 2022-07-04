@@ -5,6 +5,8 @@ C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayi
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\PizzaStore.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\PizzaStore.runtimeconfig.json
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\PizzaStore.pdb
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Dapper.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Dapper.Contrib.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Microsoft.Data.SqlClient.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Microsoft.Data.Sqlite.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Microsoft.EntityFrameworkCore.dll
@@ -30,6 +32,7 @@ C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayi
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\System.Configuration.ConfigurationManager.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\System.Data.SqlClient.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\System.Drawing.Common.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\System.Runtime.Caching.dll
@@ -43,6 +46,9 @@ C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayi
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-x64\native\sni.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-x86\native\sni.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\linux-arm\native\libe_sqlite3.so
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -58,6 +64,8 @@ C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayi
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\furutani\practice\WordPlaying\minimal-api-work-with-databases\WordPlayingAPI\PizzaStore\publish\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
